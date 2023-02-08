@@ -1,0 +1,25 @@
+footer {
+  position: absolute;
+  left: 0%;
+  top: 93.9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100vw;
+  height: 70px;
+
+  color: orange;
+
+  font-size: 40px;
+
+  background: #003a79;
+
+  border: 1px solid orange;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

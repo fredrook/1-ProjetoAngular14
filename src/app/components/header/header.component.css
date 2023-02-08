@@ -1,0 +1,66 @@
+header {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100vw;
+  height: 70px;
+
+  color: orange;
+
+  font-size: 40px;
+
+  font-family: 'Alice', serif;
+
+  background: #003a79;
+
+  border: 1px solid orange;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  gap: 30px;
+}
+
+
+img {
+  position: relative;
+  left: -7%;
+
+  pointer-events: none;
+  animation: AngularRotate infinite 8s linear;
+}
+@keyframes AngularRotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+button {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  max-width: 150px;
+
+  background-color: #1e4367;
+  color: white;
+
+  border-radius: 3px;
+}
+
+button:hover {
+  border: 1px solid orange;
+  color: orange;
+}
