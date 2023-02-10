@@ -4,22 +4,37 @@ footer {
   top: 93.9%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
   width: 100vw;
   height: 70px;
 
-  color: orange;
+  color: var(--color-orange);
 
   font-size: 40px;
 
-  background: #003a79;
+  background: var(--color-bg-blue);
 
-  border: 1px solid orange;
+  z-index: 99999;
 }
 
-a{
+a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#IMG {
+  height: 70px;
+
+  pointer-events: none;
+  animation: Rotate infinite 8s linear;
+}
+@keyframes Rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }

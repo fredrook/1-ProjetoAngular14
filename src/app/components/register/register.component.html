@@ -1,0 +1,21 @@
+  <!-- <form (ngSubmit)="submit()" routerLink="/dashboard"> -->
+    <form routerLink="/dashboard">
+    <h1>Realize seu Cadastro<a>!</a></h1>
+    <label for="name"
+      >Nome
+      <input type="text" id="name" (ngModel)="name" name="name" placeholder="Digite aqui seu Nome" />
+    </label>
+    <label [htmlFor]="anotherName"
+      >Sobrenome
+      <input type="text" id="anotherName" (ngModel)="anotherName" name="anotherName" placeholder="Digite aqui seu Sobre Nome" />
+    </label>
+    <label [htmlFor]="email"
+      >E-mail
+      <input type="email" id="email" (ngModel)="email" name="email" placeholder="Digite aqui seu E-Mail" />
+    </label>
+    <label [htmlFor]="password"
+      >Senha
+      <input type="password" id="password" (ngModel)="password" name="password" placeholder="Digite aqui sua Senha" />
+    </label>
+    <button type="submit">Registrar</button>
+  </form>

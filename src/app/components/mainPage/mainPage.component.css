@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    font-size: 40px;
+    color: var(--color-orange);
+}
+

@@ -1,0 +1,22 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { InitialPageComponent } from './mainPage.component';
+
+describe('InitialPageComponent', () => {
+  let component: InitialPageComponent;
+  let fixture: ComponentFixture<InitialPageComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [InitialPageComponent],
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(InitialPageComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

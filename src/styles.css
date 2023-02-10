@@ -1,7 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  font-family: "Crimson Text", serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Satisfy", cursive;
-  font-family: 'Alice', serif;
+  --color-bg-blue: #003a79;
+  --color-orange: #ffa500;
+  --color-white: #ffffff;
+
+  --color-green-light: #b6f686;
+  --color-black: #000000;
+  --color-grey: #bcc5c6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alice", serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

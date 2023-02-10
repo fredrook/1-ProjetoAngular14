@@ -1,0 +1,19 @@
+<div class="carousel">
+    <ng-content select="[carousel-item]"></ng-content>
+    <app-carousel>
+        <app-carousel-item>
+          <h2>Slide 1</h2>
+          <p>Content for slide 1</p>
+        </app-carousel-item>
+        <app-carousel-item>
+          <h2>Slide 2</h2>
+          <p>Content for slide 2</p>
+        </app-carousel-item>
+        <app-carousel-item>
+          <h2>Slide 3</h2>
+          <p>Content for slide 3</p>
+        </app-carousel-item>
+      </app-carousel>
+    <button (click)="previousSlide()">Previous</button>
+    <button (click)="nextSlide()">Next</button>
+  </div>

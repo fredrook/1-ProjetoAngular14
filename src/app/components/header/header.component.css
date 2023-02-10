@@ -2,65 +2,49 @@ header {
   position: absolute;
   left: 0%;
   top: 0%;
-  
+
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
   width: 100vw;
   height: 70px;
 
-  color: orange;
-
+  color: var(--color-orange);
+  background: var(--color-bg-blue);
+  
   font-size: 40px;
-
-  font-family: 'Alice', serif;
-
-  background: #003a79;
-
-  border: 1px solid orange;
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-
-  gap: 30px;
+  position: relative;
+  left: 40%;
 }
-
 
 img {
   position: relative;
-  left: -7%;
+  left: 2%;
+  
+  height: 70px;
 
-  pointer-events: none;
-  animation: AngularRotate infinite 8s linear;
-}
-@keyframes AngularRotate {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
 }
 
 button {
   display: flex;
-
   justify-content: center;
-  align-items: center;
 
+  width: 120px;
   max-width: 150px;
 
-  background-color: #1e4367;
-  color: white;
+  font-size: 22px;
+
+  background-color: var(--color-bg-blue);
+  color: var(--color-white);
 
   border-radius: 3px;
 }
 
 button:hover {
-  border: 1px solid orange;
-  color: orange;
+  border: 1px solid var(--color-orange);
+  color: var(--color-orange);
 }
